@@ -1,0 +1,53 @@
+* {
+  color: white;
+  background-color: black;
+}
+
+
+
+
+.web_dev {
+  border: solid brown;
+  margin-left: 10px;
+}
+
+
+video {
+  width: 110px;
+}
+
+.table {
+  border: solid black 3px;
+  width: 505px;
+}
+
+.table2,
+td,
+tr,
+th {
+  border: 3px solid green;
+  border-spacing: 0px;
+}
+
+.table2 {
+  width: 500px;
+}
+
+.box {
+  border: 3px solid blue;
+  width: 400px;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+.test1 {
+  height: 340px;
+  width: 635px;
+  border: solid aquamarine;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 14px;
+  box-sizing: border-box;
+}
