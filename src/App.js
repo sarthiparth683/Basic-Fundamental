@@ -9,12 +9,10 @@ function App() {
           Topic 1<sup>st</sup>:- HTML
         </h2>
 
-
         <p>
           1.) &#60; p &#62; paragraph tag &#60;/ p &#62; use to write paragraph
           or add any paragraph.
         </p>
-
 
         <p>
           2.) &#60; a &#62; anchor tag &#60;/ a &#62; use to hyperlink any web
@@ -35,15 +33,24 @@ function App() {
           .
           <img style={{ width: 100 }} src=".\images\cyborg.jpg" alt="image" /> .
           <img style={{ width: 100 }} src=".\images\glass.jpg" alt="image" /> .
-          <img style={{ width: 100 }} src=".\images\ironman.jpg" alt="image" /> .
+          <img
+            style={{ width: 100 }}
+            src=".\images\ironman.jpg"
+            alt="image"
+          />{" "}
+          .
           <img style={{ width: 100 }} src=".\images\nature.jpg" alt="image" /> .
-          <img style={{ width: 100 }} src=".\images\sarthi.jpeg" alt="image" /> .
+          <img
+            style={{ width: 100 }}
+            src=".\images\sarthi.jpeg"
+            alt="image"
+          />{" "}
+          .
         </p>
 
         <p>
           4.) &#60; ul &#62; unordered list &#60;/ ul &#62;
           <ul>
-
             <li>line 1</li>
             <li>line 2</li>
             <li>line 3</li>
@@ -58,9 +65,8 @@ function App() {
             <li>second text</li>
             <li>third text</li>
           </ol>
-          &#60; ol type="I,i,A,a" &#62; ordered list (decimal type is by default)
-          &#60;/ ol &#62;
-
+          &#60; ol type="I,i,A,a" &#62; ordered list (decimal type is by
+          default) &#60;/ ol &#62;
           <ol type="1">
             <li>first text</li>
             <li>second text</li>
@@ -75,7 +81,6 @@ function App() {
             <li>first text</li>
             <li>second text</li>
             <li>type is small Roman numbers</li>
-
           </ol>
           <ol type="A">
             <li>first text</li>
@@ -87,10 +92,9 @@ function App() {
             <li>second text</li>
             <li>type is small alphabetic</li>
           </ol>
-
-
-          these are lines in ordered list and their type can be changed as numeric(1,2,3,4,....or
-          alphabetic:-a,b,c,d,e....or Roman:-i,ii,iii,iv,v....etc)
+          these are lines in ordered list and their type can be changed as
+          numeric(1,2,3,4,....or alphabetic:-a,b,c,d,e....or
+          Roman:-i,ii,iii,iv,v....etc)
         </p>
 
         <p>
@@ -99,12 +103,9 @@ function App() {
           use to add list like this.
         </p>
 
-
-
         <p>
           7.) &#60; div &#62; div tag &#60;/ div &#62;
-          <div>any thing here  used as a box and can be used anywhere.</div>
-
+          <div>any thing here used as a box and can be used anywhere.</div>
         </p>
         <p>
           8.) &#60; span &#62; span tag &#60;/ span &#62;
@@ -186,41 +187,38 @@ function App() {
         <p>
           10.) &#60; form &#62; form tag &#60;/ form &#62;
           <form action="">
-
             &#60; input &#62; input tag &#60;/ input &#62;
-
-            <input type="text" />  <br />
-            <input type="button" value="button" /><br />
-            <input type="checkbox" name="" id="" /><br />
-            <input type="color" name="" id="" /><br />
-            <input type="datetime" name="" id="" /><br />
-            <input type="text" /> <br /><br />
-
+            <input type="text" /> <br />
+            <input type="button" value="button" />
+            <br />
+            <input type="checkbox" name="" id="" />
+            <br />
+            <input type="color" name="" id="" />
+            <br />
+            <input type="datetime" name="" id="" />
+            <br />
+            <input type="text" /> <br />
+            <br />
             &#60; textarea &#62; textarea tag &#60;/ textarea &#62;
-
             <textarea name="" id="" cols="8" rows="3"></textarea> <br />
-
-
             &#60; select &#62; select tag &#60;/ select &#62; <br />
-
             <select name="" id="">
               <option value="">option1</option>
               <option value="">option2</option>
               <option value="">option3</option>
-            </select> <br />
-
+            </select>{" "}
+            <br />
             <select name="anyname" id="id">
               <option value="">1st value</option>
               <option value="">2nd value</option>
               <option value="">3rd value</option>
               <option value="">4th value</option>
             </select>
-
           </form>
         </p>
         <p>
           11.) &#60; button &#62; button tag &#60;/ button &#62; <br />
-          <button>Button</button>  <br />
+          <button>Button</button> <br />
           used as a button.
         </p>
         <p>
@@ -244,14 +242,16 @@ function App() {
           &#60; strong &#62; <strong>strong tag</strong> &#60;/ strong &#62;{" "}
           <br />
         </p>
-        <p>16.) &#60; br /&#62; line break :-use to break line of better view.</p>
+        <p>
+          16.) &#60; br /&#62; line break :-use to break line of better view.
+        </p>
         <p>
           17.) &#60; big &#62; <big>big tag</big> &#60;/ big &#62; <br />
           &#60; small &#62; <small>small tag</small> &#60;/ small &#62; <br />
         </p>
         <p>
-          18.) &#60; sub &#62; H<sub>2</sub>O &#60;/ sub &#62; this is subscript.{" "}
-          <br />
+          18.) &#60; sub &#62; H<sub>2</sub>O &#60;/ sub &#62; this is
+          subscript. <br />
           &#60; sup &#62; x<sup>2</sup> &#60;/ sup &#62; this is superscript.
           <br />
         </p>
@@ -261,16 +261,19 @@ function App() {
           pre tag render sentences as it is.
         </p>
         <p>
-          20.)Semantic Elements :- main ,section , article , aside actually these
-          tag is useful in SEO (Search Engine Optimisation) <br />
+          20.)Semantic Elements :- main ,section , article , aside actually
+          these tag is useful in SEO (Search Engine Optimisation) <br />
           &#60; main &#62; &#60;/ main &#62; <br />
           &#60; section &#62; &#60;/ section &#62; <br />
           &#60; article &#62; &#60;/ article &#62; <br />
-          &#60; header &#62; &#60;/ header &#62;<br />
-          &#60; nav &#62; &#60;/ nav &#62;<br />
-          &#60; aside &#62; &#60;/ aside &#62;<br />
-          &#60; footer &#62; &#60;/ footer &#62;<br /> <br />
-
+          &#60; header &#62; &#60;/ header &#62;
+          <br />
+          &#60; nav &#62; &#60;/ nav &#62;
+          <br />
+          &#60; aside &#62; &#60;/ aside &#62;
+          <br />
+          &#60; footer &#62; &#60;/ footer &#62;
+          <br /> <br />
           <main>main tag </main>
           <section>section tag</section>
           <article>article tag</article>
@@ -278,25 +281,26 @@ function App() {
           <nav>nav tag</nav>
           <aside>aside tag</aside>
           <footer>footer tag</footer>
-
         </p>
         <p>
           21.) &#60; hr /&#62; it is used for horizontal line.
           <hr />
         </p>
-   
       </div>
       <h1>
         Topic 2<sup>nd</sup> :- CSS
       </h1>
+
       <div className="test1">
         <b> test.1 </b> <u>This box is to test css</u> <br /> Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Error, reprehenderit. sit amet
+        sit amet consectetur adipisicing el it. Error, reprehenderit. sit amet
         consectetur adipisicing elit. Possimus quis, natus dolor quisquam neque
-        totam minus nostrum expedita iusto aut dolorum iure similique id
-        provident soluta sed temporibus placeat modi in praesentium consectetur.
-        Ad amet dignissimos harum in consequuntur quia! Cum perferendis ratione
-        nam quis? Sint harum sed repudiandae sunt!
+        totam minus nostrum expedita Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Soluta, Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Enim, incidunt. obcaecati? iusto aut dolorum iure
+        similique id provident soluta sed temporibus placeat modi in praesentium
+        consectetur. Ad amet dignissimos harum in consequuntur quia! Cum
+        perferendis ratione nam quis? Sint harum sed repudiandae sunt!
       </div>
       <br />
       <div className="box">
