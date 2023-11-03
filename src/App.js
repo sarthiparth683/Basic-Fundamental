@@ -4,18 +4,17 @@ function App() {
   return (
     <>
       <div className="web_dev">
-        testing changes 1
         <h1>Web Development</h1>
         <h2>
           Topic 1<sup>st</sup>:- HTML
         </h2>
 
         <p>
-          1.) &#60; p &#62; paragraph tag &#60;/ p &#62; use to write paragraph
-          or add any paragraph.
+          1.) &#60; p &#62; paragraph tag &#60;/ p &#62;
+          <p> use to write paragraph or add any paragraph. </p>
         </p>
 
-        <p>    
+        <p>
           2.) &#60; a &#62; anchor tag &#60;/ a &#62; use to hyperlink any web
           pages. <br />
           <a href="https://www.facebook.com/">Link</a> <br />
@@ -24,14 +23,13 @@ function App() {
         </p>
 
         <p>
-          3.) &#60; img &#62; image tag &#60;/ img &#62;
+          3.) &#60; img &#62; image tag &#60;/ img &#62; <br />
           <img style={{ width: 100 }} src=".\images\Buddha.jpg" alt="image" /> .
           <img
             style={{ width: 100 }}
             src=".\images\Buddha (2).jpg"
             alt="image"
-          />{" "}
-          .
+          />
           <img style={{ width: 100 }} src=".\images\cyborg.jpg" alt="image" /> .
           <img style={{ width: 100 }} src=".\images\glass.jpg" alt="image" /> .
           <img
@@ -66,8 +64,8 @@ function App() {
             <li>second text</li>
             <li>third text</li>
           </ol>
-          &#60; ol type="I,i,A,a" &#62; ordered list (decimal type is by
-          default) &#60;/ ol &#62;
+          &#60; ol type="I,i,A,a" &#62; ordered list (number list(1,2,3,.....)
+          is by default) &#60;/ ol &#62;
           <ol type="1">
             <li>first text</li>
             <li>second text</li>
@@ -117,29 +115,29 @@ function App() {
           9.) &#60; table &#62; table tag &#60;/ table &#62;
           <br />
           <br />
-          <table className="table">
-            &#60; thead &#62; table head &#60;/ thead &#62;
-            <br />
-            &#60; tbody &#62; table body &#60;/ tbody &#62;
-            <br />
-            &#60; tfoot &#62; table foot &#60;/ tfoot &#62;
-            <br />
-            here,table head,body and footer is used for browser to understand,it
-            is useful in SEO(Search Engine Optimisiation)
-            <caption style={{ fontSize: 20 }}>
-              caption tag for table table , it actually appears above the table{" "}
-            </caption>
-            <thead>
-              <b>thead tag</b> it is head indide the table
-            </thead>
-            <th colspan="4" rowSpan={2}>
-              this is table head with colspan and rowspan attribute it takes the
-              size of the number of columns or row as mentioned
-            </th>
-            <tr>this is table row</tr>
-            <tr>this is table row</tr>
-            <tr>this is table row</tr>
-            <tbody>tbody</tbody>
+          <table className="table1">
+            <span>   <strong style={{
+              color: 'slateblue',
+              marginTop: 20,
+              marginLeft: 450,
+              fontSize: 21,
+              border: 'solid greenyellow 2px',
+            }}>Main Tags inside Tabel</strong>   </span>  <br />
+            &#60;table&#62; table &#60;/ table &#62; <br />
+            &#60; caption&#62; caption &#60;/ caption &#62; caption tag for table , it actually appears above and outside the table. <br />
+
+            &#60;thead&#62; table head &#60;/ thead &#62;thead tag it is the  head appears inside the table. <br />
+            &#60;tr&#62; table row &#60;/ tr &#62; this is table row <br />
+            &#60;td&#62; td &#60;/td  &#62;  is used to define the data cells in the table. <br />
+            &#60;th&#62; table head &#60;/ th &#62;this is table head with colspan and rowspan attribute it takes the size of the number of
+            columns or row as mentioned by you. <br />
+
+
+            &#60;tfoot&#62; table foot &#60;/tfoot&#62; <br />
+
+            &#60;tbody&#62; tbody &#60;/tbody&#62; body of the table here,table head,body and footer is used for browser to understand,it
+            is useful in SEO(Search Engine Optimisiation). <br />
+
           </table>
         </p>
         <div className="table2">
@@ -149,6 +147,8 @@ function App() {
                 <th>Sl.no</th>
                 <th>Items</th>
                 <th>Rate</th>
+
+
               </tr>{" "}
             </thead>
 

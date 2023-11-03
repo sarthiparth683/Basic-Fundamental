@@ -16,10 +16,12 @@ video {
   width: 110px;
 }     
 
-.table {
-  border: solid black 3px;
-  width: 505px;
+.table1 {
+  border: solid blue 3px;
+  width: auto ;
+  margin-left: 15px;
 }
+
 
 .table2,
 td,
@@ -27,11 +29,13 @@ tr,
 th {
   border: 3px solid green;
   border-spacing: 0px;
+  
+}
+.table2{
+  width: 198px;
 }
 
-.table2 {
-  width: 500px;
-}
+
 
 .box {
   border: 3px solid blue;
