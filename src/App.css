@@ -3,25 +3,20 @@
   background-color: black;
 }
 
-
-
-
 .web_dev {
   border: solid brown;
   margin-left: 10px;
 }
 
-
 video {
   width: 110px;
-}     
+}
 
 .table1 {
   border: solid blue 3px;
-  width: auto ;
+  width: auto;
   margin-left: 15px;
 }
-
 
 .table2,
 td,
@@ -29,13 +24,16 @@ tr,
 th {
   border: 3px solid green;
   border-spacing: 0px;
-  
 }
-.table2{
+
+.table2 {
   width: 198px;
 }
-
-
+.form {
+  border: solid rgb(72, 255, 0) 3px;
+  width: auto;
+  margin-left: 15px;
+}
 
 .box {
   border: 3px solid blue;
@@ -45,6 +43,9 @@ th {
 }
 
 .test1 {
+  border-radius: 37px;
+  padding: 7px;
+  margin: auto;
   height: 340px;
   width: 635px;
   border: solid aquamarine;
@@ -52,6 +53,5 @@ th {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  margin-left: 14px;
   box-sizing: border-box;
 }

@@ -116,28 +116,24 @@ function App() {
           <br />
           <br />
           <table className="table1">
-            <span>   <strong style={{
-              color: 'slateblue',
-              marginTop: 20,
-              marginLeft: 450,
-              fontSize: 21,
-              border: 'solid greenyellow 2px',
-            }}>Main Tags inside Tabel</strong>   </span>  <br />
+            <span>
+              <strong style={{
+                color: 'slateblue',
+                marginTop: 20,
+                marginLeft: 450,
+                fontSize: 21,
+                border: 'solid greenyellow 2px',
+              }}>  Main Tags inside Table Tag.  </strong>   </span>  <br />
+
             &#60;table&#62; table &#60;/ table &#62; <br />
             &#60; caption&#62; caption &#60;/ caption &#62; caption tag for table , it actually appears above and outside the table. <br />
-
             &#60;thead&#62; table head &#60;/ thead &#62;thead tag it is the  head appears inside the table. <br />
             &#60;tr&#62; table row &#60;/ tr &#62; this is table row <br />
             &#60;td&#62; td &#60;/td  &#62;  is used to define the data cells in the table. <br />
+            &#60;tfoot&#62; table foot &#60;/tfoot     &#62; <br />
+            &#60;tbody&#62; tbody &#60;/tbody&#62; body of the table here,table head,body and footer is used for browser to understand, it is useful in SEO(Search Engine Optimisiation). <br />
             &#60;th&#62; table head &#60;/ th &#62;this is table head with colspan and rowspan attribute it takes the size of the number of
             columns or row as mentioned by you. <br />
-
-
-            &#60;tfoot&#62; table foot &#60;/tfoot&#62; <br />
-
-            &#60;tbody&#62; tbody &#60;/tbody&#62; body of the table here,table head,body and footer is used for browser to understand,it
-            is useful in SEO(Search Engine Optimisiation). <br />
-
           </table>
         </p>
         <div className="table2">
@@ -147,13 +143,9 @@ function App() {
                 <th>Sl.no</th>
                 <th>Items</th>
                 <th>Rate</th>
-
-
               </tr>{" "}
             </thead>
-
             <tbody>
-              {" "}
               <tr>
                 <td>1</td>
                 <td>mobile</td>
@@ -175,7 +167,6 @@ function App() {
                 <td>5,000</td>
               </tr>
             </tbody>
-
             <tfoot>
               <tr>
                 <td></td>
@@ -186,35 +177,26 @@ function App() {
           </table>
         </div>
         <p>
-          10.) &#60; form &#62; form tag &#60;/ form &#62;
-          <form action="">
-            &#60; input &#62; input tag &#60;/ input &#62;
-            <input type="text" /> <br />
-            <input type="button" value="button" />
-            <br />
-            <input type="checkbox" name="" id="" />
-            <br />
-            <input type="color" name="" id="" />
-            <br />
-            <input type="datetime" name="" id="" />
-            <br />
-            <input type="text" /> <br />
-            <br />
-            &#60; textarea &#62; textarea tag &#60;/ textarea &#62;
-            <textarea name="" id="" cols="8" rows="3"></textarea> <br />
+          10.) FORM.
+          <table className="form">
+            <span>
+              <strong style={{
+                color: 'slateblue',
+
+                fontSize: 21,
+                border: 'solid pink 2px',
+              }}>  Main Tags inside Form Tag.  </strong>   </span>  <br />
+
+
+            &#60; form &#62; form tag &#60;/ form &#62; <br />
+            &#60; input &#62; input tag &#60;/ input &#62; <br />
+            &#60; textarea &#62; textarea tag &#60;/ textarea &#62;<br />
             &#60; select &#62; select tag &#60;/ select &#62; <br />
-            <select name="" id="">
-              <option value="">option1</option>
-              <option value="">option2</option>
-              <option value="">option3</option>
-            </select>{" "}
-            <br />
-            <select name="anyname" id="id">
-              <option value="">1st value</option>
-              <option value="">2nd value</option>
-              <option value="">3rd value</option>
-              <option value="">4th value</option>
-            </select>
+            &#60; option&#62;option &#60;/option &#62;<br />
+
+          </table>
+
+          <form action="">
           </form>
         </p>
         <p>
@@ -293,8 +275,8 @@ function App() {
       </h1>
 
       <div className="test1">
-        <b> test.1 </b> <u>This box is to test css</u> <br /> Lorem ipsum dolor
-        sit amet consectetur adipisicing el it. Error, reprehenderit. sit amet
+        className = <b> test.1 </b> (<u>This box is to test css properties</u>) <br />
+        margin: auto :- it automatically brings the box to the center. <br />ipisicing el it. Error, reprehenderit. sit amet
         consectetur adipisicing elit. Possimus quis, natus dolor quisquam neque
         totam minus nostrumunt. obcaecati? iusto aut dolorum iure similique id
         provident soluta sed temporibus placeat modi in praesentium consectetur.
