@@ -4,10 +4,124 @@ function App() {
   return (
     <>
       <div className="web_dev">
-        <h1>Web Development</h1>
-        <h2>
-          Topic 1<sup>st</sup>:- HTML
-        </h2>
+        <h2 style={{ color: 'blue' }}> <u> Topic 1<sup>st</sup>:- HTML  </u> </h2>
+        <div>
+          <h2>1.)<u> Heading Tag</u></h2>
+          <h1>h1 Heading Tag</h1>
+          <h2>h2 Heading Tag</h2>
+          <h3>h3 Heading Tag</h3>
+          <h4>h4 Heading Tag</h4>
+          <h5>h5 Heading Tag</h5>
+          <h6>h6 Heading Tag</h6>
+        </div>
+
+        <div>
+          <h2>2.)<u>Paragraph Tag</u></h2>
+          <p>(div tag) automatically comes to next line without (br tag)</p>
+          <p>This is a simple paragraph1.</p>
+          <p>This is a paragraph with "lorem10" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, deserunt?</p>
+        </div>
+
+        <div>
+          <h2>3.)<u>Anchor Tag</u></h2>
+          <p>Anchor tag is used to add links to the websites</p>
+          <a href="https://www.google.co.in/">Google</a> <br />
+          <a href="https://www.facebook.com/">Facebook</a> <br />
+          <a href="https://www.instagram.com/?hl=en">Instagram</a> <br />
+
+          <p>For a webpage to open in new tab we use (target attribute to open in new tab) eg... </p>
+          <a href="https://www.google.co.in/" target="_main">Google</a> <br />
+          <a href="https://www.facebook.com/" target="_main">Facebook</a> <br />
+
+          <p>We can also use photo insted of text(google,facebook..). eg...</p>
+          <a href="https://www.instagram.com/?hl=en" target="_main">
+            <img style={{ width: 100 }} src=".\images\Buddha.jpg" alt="" /></a> <br />
+        </div>
+
+        <div>
+          <h2>4.)<u>Image Tag</u></h2>
+          <p>Use to add images</p>
+          <img style={{ width: 100 }} src=".\images\Buddha (2).jpg" alt="" />
+          <img style={{ width: 100 }} src=".\images\Buddha.jpg" alt="" />
+          <img style={{ width: 100 }} src=".\images\cyborg.jpg" alt="" />
+          <img style={{ width: 100 }} src=".\images\glass.jpg" alt="" />
+          <img style={{ width: 100 }} src=".\images\ironman.jpg" alt="" />
+          <img style={{ width: 100 }} src=".\images\nature.jpg" alt="" />
+          <img style={{ width: 100 }} src=".\images\sarthi.jpeg" alt="" />
+          <img style={{ width: 100 }} src=".\images\thumb-1920-980964.jpg" alt="" />
+        </div>
+
+        <div>
+          <h2>5.)<u>Br Tag</u></h2>
+          <p>use to break the line</p> <br />
+          <p>Line 1...</p>
+          <p>Line 2...</p>
+          <p>Line 3...</p>
+        </div>
+
+        <div>
+          <h2>6.)<u>Bold, Italic, & Underline Tags</u></h2>
+          <p>use to highlights the text</p>
+          <b>Bold</b> <br />
+          <i>Italic</i> <br />
+          <u>Underline</u>
+        </div>
+
+        <div>
+          <h2>7.)<u>Big and Small Tags</u></h2>
+          <p>use to display Big and Small text</p>
+          <big>Big tag</big> <br />
+          <small>Small Tag</small>
+        </div>
+
+        <div>
+          <h2>8.)<u>Hr Tag</u></h2>
+          <p>Used to display horizontal ruler, used to seprate content</p>
+          <hr />
+          <hr />
+        </div>
+
+        <div>
+          <h2>9.)<u>Subscript and Superscript Tag</u></h2>
+          <p>Used in showing formula's</p>
+          <p>H<sub>2</sub>O</p>
+          <p>ax<sup>2</sup>+bx+c</p>
+        </div>
+
+        <div>
+          <h2>10.)<u>Pre Tag</u></h2>
+          <p>Used to display text as it is(without ignoring spaces and next line)</p>
+          <pre>
+            this
+            is a sample
+            of pre tag.
+          </pre>
+        </div>
+
+        <div>
+          <h2>11.)<u>Page layout Techniques</u></h2>
+          <p> <u>These Tags are useful in Search Engine Optimization(SEO).</u> </p>
+          <header>header tag</header>
+          <main>main tag</main>
+          <footer>footer tag</footer>
+
+          <p><b>Now, inside main tag</b></p>
+          <main>
+            <section>section tag, for a section on your page</section>
+            <article>Article tag, for an article on your page</article>
+            <aside>Aside tag, for content aside main content(ads)</aside>
+          </main>
+        </div>
+
+        <div>
+          <h2>12.)<u>Div Tag</u></h2>
+          <p>Div container usde for other HTML elements</p>
+          <div>it's a block element(which means it takes full width)</div>
+        </div>
+
+
+
+
 
         <p>
           1.) &#60; p &#62; paragraph tag &#60;/ p &#62;
