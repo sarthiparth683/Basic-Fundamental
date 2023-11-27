@@ -115,8 +115,150 @@ function App() {
 
         <div>
           <h2>12.)<u>Div Tag</u></h2>
-          <p>Div container usde for other HTML elements</p>
+          <p>Div container used for other HTML elements</p>
           <div>it's a block element(which means it takes full width)</div>
+        </div>
+
+        <div>
+          <h2>13.)<u>Span Tag</u></h2>
+          <p>Span Tag is also a container used for other HTML elements</p>
+          <div>it's an inline element(which means it takes width as per size)</div>
+        </div>
+
+        <div>
+          <h2>14.)<u>List in HTML</u></h2>
+          <p>Lists are used to represent real life list data.</p>
+          <b>Unordered list</b>
+          <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+            <li>Orange</li>
+          </ul>
+
+          <b>Ordered List</b>
+          <ol>
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Litchi</li>
+          </ol>
+        </div>
+
+        <div>
+          <h2>15.)<u>Tables in HTML</u></h2>
+          <p>Tables are usde to represent real life table data.</p>
+          <tr>used to display table row</tr>
+          <td>used to display table data</td>
+          <th>used to display table header</th>
+
+          <b>Tables in HTML</b>
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Roll. No.</th>
+              <th>class</th>
+            </tr>
+            <tr>
+              <td>Sarthi</td>
+              <td>9856</td>
+              <td colSpan={4} >M.A </td>
+            </tr>
+
+            <b>caption in table</b>
+            <caption>Student Data</caption>
+
+            <b>thead and tbody in Tables</b>
+            <thead>to wrap table head</thead>
+            <tbody>to wrap table body</tbody>
+
+            <b>colspan attribute</b>
+            <p>use to create cells which spans over multiple columns</p>
+
+          </table>
+        </div>
+
+
+        <div>
+          <h2>16.)<u>Forms in HTML</u></h2>
+          <p>Forms are used to collect data from the user</p>
+          <form action=""></form>
+          <b>Action in Form</b>
+          <p>Action attribute is used to define what action needs to be performed when a form is submitted.</p>
+          <b>Form Element: Input</b>
+          <input type="text" placeholder="Enter Name" />
+        </div>
+
+        <div>
+          <h2>17.)<u>Label</u></h2>
+
+          <label htmlFor="id1">
+            <input type="radio" />
+          </label> <br />
+
+          <label htmlFor="id2">
+            <input type="text" />
+          </label>
+        </div>
+
+        <div>
+          <h2>18.)<u>Class and Id</u></h2>
+
+          <div id="id1" className="group1">1.</div>
+
+          <div id="id2" className="group2">2.</div>
+
+        </div>
+
+        <div>
+          <h2>19.)<u>Checkbox</u></h2>
+
+          <label htmlFor="id1">
+            <input type="checkbox" />
+          </label>
+
+          <label htmlFor="id2">
+            <input type="checkbox" />
+          </label>
+
+        </div>
+
+        <div>
+          <h2>20.)<u>Textarea</u></h2>
+
+          <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Please add Feedback" ></textarea>
+
+        </div>
+
+        <div>
+          <h2>21.)<u>Select</u></h2>
+
+          <select name="city" id="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+          </select>
+
+        </div>
+
+        <div>
+          <h2>22.)<u>iframe Tag</u></h2>
+
+          <iframe src="" frameborder="0"></iframe>
+
+        </div>
+        <div>
+          <h2>23.)<u>Video Tag</u></h2>
+
+          <video src="">My video</video>
+
+          <b>Attributes of video tag</b>
+          <ul>
+            <li>controls</li>
+            <li>height</li> 
+            <li>width</li>
+            <li>loop</li>
+            <li>autoplay</li>
+          </ul>
+
         </div>
 
 

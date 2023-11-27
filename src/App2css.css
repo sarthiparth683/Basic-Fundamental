@@ -1,0 +1,311 @@
+.color1 {
+  color: red;
+}
+.color2 {
+  color: pink;
+}
+.color3 {
+  color: blue;
+}
+.color4 {
+  color: green;
+}
+
+.background-color1 {
+  background-color: red;
+}
+.background-color2 {
+  background-color: pink;
+}
+.background-color3 {
+  background-color: blue;
+}
+.background-color4 {
+  background-color: green;
+}
+
+.rgb1 {
+  color: rgb(251, 0, 0);
+}
+.rgb2 {
+  color: rgb(1, 254, 0);
+}
+
+.hex1 {
+  color: #ff0000;
+}
+.hex2 {
+  color: #00ff00;
+}
+
+#text1 {
+  text-align: left;
+  background-color: green;
+}
+#text2 {
+  text-align: right;
+  background-color: aqua;
+}
+#text3 {
+  text-align: center;
+  background-color: blueviolet;
+}
+
+#text-decoration1 {
+  text-decoration: underline;
+}
+#text-decoration2 {
+  text-decoration: overline;
+}
+#text-decoration3 {
+  text-decoration: line-through;
+}
+
+#font-weight1 {
+  font-weight: normal;
+}
+#font-weight2 {
+  font-weight: bold;
+}
+#font-weight3 {
+  font-weight: bolder;
+}
+#font-weight4 {
+  font-weight: lighter;
+}
+#font-weight5 {
+  font-weight: 100;
+}
+#font-weight6 {
+  font-weight: 200;
+}
+#font-weight7 {
+  font-weight: 300;
+}
+#font-weight8 {
+  font-weight: 400;
+}
+#font-weight9 {
+  font-weight: 500;
+}
+#font-weight10 {
+  font-weight: 600;
+}
+#font-weight11 {
+  font-weight: 700;
+}
+#font-weight12 {
+  font-weight: 800;
+}
+#font-weight13 {
+  font-weight: 900;
+}
+
+#font-family1 {
+  font-family: Arial;
+}
+#font-family2 {
+  font-family: Roboto;
+}
+#font-family3 {
+  font-family: Georgia;
+}
+#font-family4 {
+  font-family: Tahoma;
+}
+#font-family5 {
+  font-family: serif;
+}
+#font-family6 {
+  font-family: Palatino;
+}
+#font-family7 {
+  font-family: Georgia;
+}
+#font-family8 {
+  font-family: Helvetica;
+}
+#font-family9 {
+  font-family: Verdana;
+}
+#font-family10 {
+  font-family: Trebuchet;
+}
+
+#line-height1 {
+  line-height: 2px;
+}
+#line-height2 {
+  line-height: 3;
+}
+#line-height3 {
+  line-height: normal;
+}
+
+#text-transform1 {
+  text-transform: uppercase;
+}
+#text-transform2 {
+  text-transform: lowercase;
+}
+#text-transform3 {
+  text-transform: capitalize;
+}
+#text-transform4 {
+  text-transform: none;
+}
+
+#height {
+  height: 50px;
+}
+#width {
+  width: 50px;
+}
+
+#border-width {
+  border-width: 20px;
+}
+
+#border-style1 {
+  border-style: solid;
+}
+#border-style2 {
+  border-style: dotted;
+}
+#border-style3 {
+  border-style: dashed;
+}
+
+#border-color {
+  border-style: solid;
+  border-color: green;
+}
+
+#shorthand {
+  border: 2px solid blue;
+}
+
+#border-radius1 {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#border-radius2 {
+  border-radius: 50%;
+  border: 2px solid greenyellow;
+}
+
+#padding1 {
+  padding: 50px;
+  border: 2px solid greenyellow;
+}
+#padding2 {
+  padding: 1px 2px 3px 4px;
+  border: 2px solid greenyellow;
+}
+
+#Margin1 {
+  margin: 50px;
+  border: 2px solid blue;
+}
+#Margin2 {
+  margin: 1px 2px 3px 4px;
+  border: 2px solid blue;
+}
+
+#display1 {
+  display: inline;
+  border: 2px solid blue;
+}
+#display2 {
+  display: block;
+  border: 2px solid blue;
+}
+#display3 {
+  display: inline-block;
+  border: 2px solid blue;
+}
+#display4 {
+  display: none;
+  border: 2px solid blue;
+}
+
+#visibility1 {
+  visibility: hidden;
+}
+
+#color1 {
+  color: rgba(47, 255, 0, 0.941);
+}
+#color2 {
+  color: rgb(51, 0, 253);
+}
+
+
+#Percentage1{
+    width:35%;
+    border: 2px solid blue;
+}
+#Percentage2{
+    margin-left: 50%;
+    border: 2px solid yellow;
+}
+
+#position1{
+    position:static ;
+    border: 2px solid green;
+}
+#position2{
+    position:relative ;
+    border: 2px solid green;
+}
+#position3{
+    position:absolute ;
+    border: 2px solid green;
+}
+#position4{
+    position:fixed ;
+    border: 2px solid green;
+}
+#position5{
+    position:sticky ;
+    border: 2px solid green;
+}
+
+#z-index1{
+    z-index: index auto;
+}
+#z-index2{
+    z-index:1/2;
+}
+#z-index3{
+    z-index: -1/-2;
+}
+
+#background-image1{
+    background-image:url("C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg ") ;
+    background-size: cover;
+}
+#background-image2{
+    background-image:url("C:\Z.CODING\Basic-Fundamental\public\images\Buddha (2).jpg  ") ;
+    background-size:contain;
+}
+#background-image3{
+    background-image: url( 'C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg  '  );
+    background-size:auto;
+}
+
+
+    
+/* 
+#background-size1{
+   background-image: url('    C:\Z.CODING\Basic-Fundamental\public\images\thumb-1920-980964.jpg   ');
+    
+}
+#background-size2 {
+    background-image: url( 'C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg  '  );
+    background-size:contain;
+}
+#background-size3 {
+    background-image: url( 'C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg  '  );
+    background-size:auto;
+} */
