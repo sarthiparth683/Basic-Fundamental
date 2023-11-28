@@ -240,72 +240,99 @@
   color: rgb(51, 0, 253);
 }
 
-
-#Percentage1{
-    width:35%;
-    border: 2px solid blue;
+#Percentage1 {
+  width: 35%;
+  border: 2px solid blue;
 }
-#Percentage2{
-    margin-left: 50%;
-    border: 2px solid yellow;
-}
-
-#position1{
-    position:static ;
-    border: 2px solid green;
-}
-#position2{
-    position:relative ;
-    border: 2px solid green;
-}
-#position3{
-    position:absolute ;
-    border: 2px solid green;
-}
-#position4{
-    position:fixed ;
-    border: 2px solid green;
-}
-#position5{
-    position:sticky ;
-    border: 2px solid green;
+#Percentage2 {
+  margin-left: 50%;
+  border: 2px solid yellow;
 }
 
-#z-index1{
-    z-index: index auto;
+#position1 {
+  position: static;
+  border: 2px solid green;
 }
-#z-index2{
-    z-index:1/2;
+#position2 {
+  position: relative;
+  border: 2px solid green;
 }
-#z-index3{
-    z-index: -1/-2;
+#position3 {
+  position: absolute;
+  border: 2px solid green;
 }
-
-#background-image1{
-    background-image:url("C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg ") ;
-    background-size: cover;
+#position4 {
+  position: fixed;
+  border: 2px solid green;
 }
-#background-image2{
-    background-image:url("C:\Z.CODING\Basic-Fundamental\public\images\Buddha (2).jpg  ") ;
-    background-size:contain;
-}
-#background-image3{
-    background-image: url( 'C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg  '  );
-    background-size:auto;
+#position5 {
+  position: sticky;
+  border: 2px solid green;
 }
 
+#z-index1 {
+  z-index: index auto;
+}
+#z-index2 {
+  z-index: 1/2;
+}
+#z-index3 {
+  z-index: -1/-2;
+}
 
-    
-/* 
-#background-size1{
-   background-image: url('    C:\Z.CODING\Basic-Fundamental\public\images\thumb-1920-980964.jpg   ');
-    
+#background-image1 {
+  background-image: url("C:\Z.CODING\Basic-Fundamental\public\images\Buddha (2).jpg   ");
 }
-#background-size2 {
-    background-image: url( 'C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg  '  );
-    background-size:contain;
+#background-image2 {
+  background-image: url("C:\Z.CODING\Basic-Fundamental\public\images\Buddha.jpg  ");
 }
-#background-size3 {
-    background-image: url( 'C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg  '  );
-    background-size:auto;
-} */
+#background-image3 {
+  background-image: url("C:\Z.CODING\Basic-Fundamental\public\images\cyborg.jpg  ");
+}
+
+#background-image4 {
+  background-image: url("C:\Z.CODING\Basic-Fundamental\public\images\glass.jpg ");
+  background-size: cover;
+  height: 100px;
+}
+#background-image5 {
+  background-image: url("C:\Z.CODING\Basic-Fundamental\public\images\ironman.jpg ");
+  background-size: contain;
+  height: 100px;
+}
+#background-image6 {
+  background-image: url("C:\Z.CODING\Basic-Fundamental\public\images\nature.jpg ");
+  background-size: auto;
+  height: 100px;
+}
+#background-image7 {
+  background-image: url("C:\Z.CODING\Basic-Fundamental\public\images\sarthi.jpeg ");
+  background-size: none;
+  height: 100px;
+}
+
+.flex-direction1 {
+  flex-direction: row;
+}
+.flex-direction2 {
+  flex-direction: row-reverse;
+}
+.flex-direction3 {
+  flex-direction: column;
+}
+.flex-direction4 {
+  flex-direction: column-reverse;
+}
+
+.justify-content1 {
+  justify-content: flex-start;
+}
+.justify-content2 {
+  justify-content: flex-end;
+}
+.justify-content3 {
+  justify-content: center;
+}
+.justify-content4 {
+  justify-content: space-evenly;
+}

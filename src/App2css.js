@@ -285,7 +285,7 @@ const App2css = () => {
 
       <div>
         <h2><u>16.)Background Image in CSS </u></h2>
-        <p><b>NOTE:- image path is copied in background URL(full path is copied) but in [img tag dot . is added before the source path].  </b></p>
+        <p><b>NOTE:- image path is copied in background URL(full path is copied and the path should immediately start after " no space should be there otherwise it won't work.), but in [img tag - dot . is added before the source path].  </b>   <img style={{ width: 60 }} src=".\images\Buddha (2).jpg" alt="" /></p>
 
         <p>Used to set an image as background</p>
 
@@ -295,19 +295,50 @@ const App2css = () => {
 
         <div id="background-image3">background-image3:url("")
         </div> <br />
-
-        <img style={{ height: 100 }} src=".\images\Buddha (2).jpg" alt="" />
       </div>
 
 
-      {/* <div>
+      <div>
         <p> <h2><u><b>17.)Background Size</b></u></h2>  </p>
+        <div id="background-image4">background-size:cover;
+        </div> <br />
+        <div id="background-image5">background-size:contain;
+        </div> <br />
+        <div id="background-image6">background-size:auto;
+        </div> <br />
+        <div id="background-image7">background-size:none;
+        </div> <br />
+      </div>
 
-        <div id="background-size1 ">background-size:cover </div> <br />
-        <div id="background-size2 "> background-size:contain </div> <br />
-        <div id="background-size3 "> background-size:auto </div><br />
+      <div>
+        <p> <h2><u><b>18.)Flexbox</b></u></h2>  </p>
+        <p>Flexible Box Layout. It is one-dimensional layout method for arranging items in rows or columns.</p>
 
-      </div> */}
+        <p><b>Flexbox Direction</b>It sets how flex items are placed in the flex container, along which axis and direction.</p>
+
+        <div className="flex-direction1">flex-direction: row;(default)  </div>
+        <div className="flex-direction2">flex-direction: row-reverse;</div>
+        <div className="flex-direction3">flex-direction: column;</div>
+        <div className="flex-direction4">flex-direction: column-reverse;</div>
+      </div>
+
+      <div>
+        <p> <h2><u><b>19.)Flex Properties for Flex Container</b></u></h2> </p>
+
+        <ol>
+          <li>
+            <p><b>justify-content:alignment along the main axis.</b></p>
+            <div className="justify-content1">justify-content: flex-start;</div>
+            <div className="justify-content2">justify-content: flex-end;</div>
+            <div className="justify-content3"> justify-content: center;</div>
+            <div className="justify-content4">  justify-content: space-evenly;</div>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
+
 
 
 
