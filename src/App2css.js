@@ -333,10 +333,55 @@ const App2css = () => {
             <div className="justify-content3"> justify-content: center;</div>
             <div className="justify-content4">  justify-content: space-evenly;</div>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><p> flex-wrap: </p>
+            <div className="flex-wrap1"> flex-wrap:nowwrap </div>
+            <div className="flex-wrap2"> flex-wrap:wrap </div>
+            <div className="flex-wrap3"> flex-wrap:wrap-reverse</div>
+          </li>
+
+          <li>align-items - alignment along the cross axis.
+            <div className="align-items1 "> align-items: baseline; </div>
+            <div className="align-items2 "> align-items: center; </div>
+            <div className="align-items3 "> align-items: end; </div>
+          </li>
+          <li>
+            align-content:alignment of space between and around the content along cross-axis.
+            <div className="align-content1 "> align-items: end; </div>
+            <div className="align-content2"> align-items: end; </div>
+            <div className="align-content3 "> align-items: end; </div>
+          </li>
         </ol>
+      </div>
+
+      <div>
+        <p><h2><u><b>20.)Flex Properties for Flex item</b></u></h2></p>
+        <ol>
+          <li><div className="align-self"> align-self: alignment of individual along the across axis. </div>
+          </li>
+
+          <li><div className="flex-grow"> flex-grow:how much a flex item will grow relative to the rest of the flex items if space is available. </div></li>
+
+          <li><div className="flex-shrink">flex-shrink: how much a flex item will shrink relative to the rest of the flex items if space is available. </div></li>
+        </ol>
+      </div>
+
+      <div>
+        <h1><u><b>21.)Media Queries</b></u></h1>
+      </div>
+
+      <div>
+        <h1><u><b>22.)Transitions </b></u></h1>
+        <p>Transitions enable you to define the transition between two states of an element.</p>
+
+        <div id="transition1">transition-property: property you want to transition(font-size,width etc..)</div>
+        <div id="transition2">transition-duration:2s/4ms...</div>
+        <div id="transition3"></div>
+        <div id="transition4"></div>
+        <div id="transition5"></div>
+        <div id="transition6"></div>
+        <div id="transition1"></div>
+        <div id="transition1"></div>
+        <div id="transition1"></div>
       </div>
 
 

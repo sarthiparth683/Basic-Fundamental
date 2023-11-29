@@ -336,3 +336,71 @@
 .justify-content4 {
   justify-content: space-evenly;
 }
+.flex-wrap1 {
+  flex-wrap: nowrap;
+}
+.flex-wrap1 {
+  flex-wrap: wrap;
+}
+.flex-wrap1 {
+  flex-wrap: wrap-reverse;
+}
+
+.align-items1 {
+  align-items: baseline;
+}
+.align-items2 {
+  align-items: center;
+}
+.align-items3 {
+  align-items: end;
+}
+
+.align-content1 {
+  align-content: baseline;
+}
+.align-content1 {
+  align-content: center;
+}
+
+.align-content1 {
+  align-content: end;
+}
+
+.align-self {
+  align-self: center;
+}
+.flex-grow {
+  flex-grow: inherit;
+}
+.flex-shrink {
+  flex-shrink: initial;
+}
+
+
+
+
+#transition1{
+  transition-property: all;
+}
+#transition2{
+  transition-property: initial;
+}
+#transition3{
+  transition-duration: 1s;
+}
+#transition3 {
+  transition-timing-function: ease-in;
+}
+#transition4 {
+  transition-timing-function: ease-out;
+}
+#transition5 {
+  transition-timing-function: linear;
+}
+#transition5 {
+  transition-timing-function: steps();
+}
+#transition5 {
+  transition-delay: 1s;
+}
