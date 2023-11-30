@@ -389,18 +389,57 @@
 #transition3{
   transition-duration: 1s;
 }
-#transition3 {
+#transition4{
   transition-timing-function: ease-in;
 }
-#transition4 {
+#transition5{
   transition-timing-function: ease-out;
 }
-#transition5 {
+#transition6{
   transition-timing-function: linear;
 }
-#transition5 {
+#transition7{
   transition-timing-function: steps();
 }
-#transition5 {
+#transition8{
   transition-delay: 1s;
 }
+#transition9{
+  transition: font-size 2s ease-in-out 0.2s;
+}
+
+
+#transform1{
+  transform: rotate(45deg);
+}
+#transform2{
+  transform:scale(2);
+}
+#transform3{
+  transform:scale(0.5);
+}
+#transform4{
+  transform:scale(1,2);
+}
+#transform5{
+  transform:scaleX(0.5);
+}
+#transform6{
+  transform:scaleY(0.5);
+}
+#transform7{
+  transform:translate(20px) ;
+}
+#transform8{
+  transform:translate(20px,50px) ;
+}
+#transform9{
+  transform:translateX(20px);
+}
+#transform10{
+  transform:translateY(20px);
+}
+#transform11{
+transform: skew(30deg);
+}
+

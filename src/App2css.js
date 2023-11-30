@@ -371,18 +371,52 @@ const App2css = () => {
 
       <div>
         <h1><u><b>22.)Transitions </b></u></h1>
-        <p>Transitions enable you to define the transition between two states of an element.</p>
+        <p>Transitions enable you to define the transition between two states of an element.</p><br />
 
-        <div id="transition1">transition-property: property you want to transition(font-size,width etc..)</div>
-        <div id="transition2">transition-duration:2s/4ms...</div>
-        <div id="transition3"></div>
-        <div id="transition4"></div>
-        <div id="transition5"></div>
-        <div id="transition6"></div>
-        <div id="transition1"></div>
-        <div id="transition1"></div>
-        <div id="transition1"></div>
+        <div id="transition1">transition-property: property you want to transition(font-size,width etc..)</div><br />
+        <div id="transition2">transition-duration:2s/4ms...</div><br />
+        <div id="transition3">transition-duration: 1s;</div><br />
+        <div id="transition4">transition-timing-function: ease-in;</div><br />
+        <div id="transition5">transition-timing-function: ease-out;</div><br />
+        <div id="transition6">transition-timing-function: linear;</div><br />
+        <div id="transition7">transition-timing-function: steps();</div><br />
+        <div id="transition8">transition-delay: 1s;</div><br />
+
+        <p><b><u>Transition Shorthand</u></b></p><br />
+        <p>Property name| duration | timing-function | delay</p><br />
+        <div id="transition9">transition: font-size 2s ease-in-out 0.2s;</div><br />
       </div>
+
+
+      <div>
+        <h1><u><b>23.)CSS Transform </b></u></h1>
+        <p>Used to apply 2D & 3D transformation to an element.</p><br />
+        <div id="transform1"> transform: rotate(45deg);</div><br />
+
+        <b><u>Scale</u></b><br />
+        <div id="transform2"> transform: Scale(2);</div><br />
+        <div id="transform3"> transform:scale(0.5) ;</div><br />
+        <div id="transform4"> transform:scale(1,2) ;</div><br />
+        <div id="transform5"> transform:scaleX(0.5) ;</div><br />
+        <div id="transform6"> transform:scaleY(0.5);</div><br />
+
+        <b><u>translate</u></b><br />
+        <div id="transform7">transform:translate(20px);</div><br />
+        <div id="transform8">transform:translate(20px,50px);</div><br />
+        <div id="transform9">transform:translateX(20px);</div><br />
+        <div id="transform10">transform:translateY(20px);</div><br />
+
+        <b><u>skew</u></b><br />
+        <div id="transform11">transform: skew(30deg);</div><br />
+      </div>
+
+      <div>
+        <h1><u><b>24.)Animation</b></u></h1>
+        <p>To animate CSS elements.</p>
+
+      </div>
+
+
 
 
 
